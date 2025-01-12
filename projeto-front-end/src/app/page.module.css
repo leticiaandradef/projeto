@@ -35,6 +35,16 @@
   line-height: 1.5;
 }
 
+.pp{
+  text-align: center;
+  display: flex;
+  color: #7e7e7e;
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-size: 2.3vh;
+  border: none;
+}
+
 .image {
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

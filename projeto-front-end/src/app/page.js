@@ -47,6 +47,9 @@ export default function Home() {
             Restaurantes, Cafés, Hotéis, Karaokês, SPAs, Maternidade, Avião,
             Trem-bala e muitos outros espaços temáticos de personagens.
           </p>
+          <p className={styles.pp}>
+            O Restaurante Eat Asia + Hello Kitty fica localizado em São Paulo, no Brasil, e é o primeiro restaurante da personagem localizado na América Latina.
+          </p>
         </div>
         {/* Personagem */}
         <Image
@@ -57,6 +60,34 @@ export default function Home() {
           className={`${styles.character} ${styles.characterBottomLeft}`}
         />
       </div>
+      {/* Terceira Seção */}
+      <div className={styles.section}>
+              <div className={styles.textContainer}>
+                <h1 className={styles.title}>
+                  Parques temáticos no Japão, Malásia e China.
+                </h1>
+                <p className={styles.pp}>
+                  O Sanrio Puroland fica localizado no Japão e é mais conhecido de todos. Destino obrigatório para todos os fãs da marca que viajam para o país.
+                </p>
+              </div>
+              <div className={styles.imageContainer}>
+                <Image
+                  src="/image/parque.png"
+                  alt="Imagem Paruqe Sanrio"
+                  width={500}
+                  height={400}
+                  className={styles.image}
+                />
+              </div>
+              {/* Personagem */}
+              <Image
+                src="/image/kuromi2.png"
+                alt="Personagem Sanrio"
+                width={140}
+                height={100}
+                className={`${styles.character} ${styles.characterTopRight}`}
+              />
+            </div>
     </div>
   );
 }

@@ -26,7 +26,7 @@ export default function Header() {
         <header className={`${styles.header} ${menuOpen ? styles.menuOpen : ''}`}>
             <div className={styles.logo}>
 
-                {<Image className={styles.img} src='/image/sanrio.png' alt="Imagem Logo sanrio" width={100} height={50}/>}
+                {<Image className={styles.logo} src='/image/sanrio.png' alt="Imagem Logo sanrio" width={100} height={50}/>}
             </div>
 
             <div 
